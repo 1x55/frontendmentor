@@ -7,5 +7,31 @@
 :root {
 --primary-light-red: hsl(0, 100%, 67%);
 --primary-orange-yellow: hsl(39, 100%, 56%);
-    
+--primaryteal: hsl(166, 100%, 37%);
+--primary-blue: hsl(234, 85%, 45%);
+
+--gradient-bg-light-blue: hsl(252, 100%, 67%);
+--gradient-bg-royal-blue: hsl(241, 81%, 54%);
+--gradient-bg-violet: hsla(256, 72%, 46%, 1);
+--gradient-bg-persian: hsla(241, 72%, 46%, 0);
+
+
+--neutral-white: hsl(0, 0%, 100%);
+--neutral-blue: hsl(221, 100%, 96%);
+--neutral-lavender: hsl(241, 100%, 89%);
+--neutral-gray-blue: hsl(224, 30%, 27%);
+
+--font-weight-500: 500;
+--font-weight-700: 700;
+--font-weight-800: 800;
+font-size: 62.5%
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--neutral-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
 }
